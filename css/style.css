@@ -1,0 +1,357 @@
+
+
+/* ---------- AUFBAU ---------- */
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAVIGATION */
+
+nav {
+    font-family: sans-serif;
+    width: 65%;
+    margin-top: 2em;
+    text-align: end;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    line-height: 150%;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+nav ul li a:hover {
+    color: #1d11f6;
+}
+
+.active {
+    color: #1d11f6;
+}
+.navlogo {
+    width: 200px;
+    margin-top: 2.5em;
+}
+
+
+body {
+    background-color: black;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+main {
+    margin-bottom: 5em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.webseitelink {
+    color: white;
+    text-decoration: none;
+}
+
+.webseitelink:hover {
+    color: #1d11f6;
+}
+
+.webseitelink,
+.webseitelink:after,
+.webseitelink:before {
+    transition: all .5s;
+}
+
+.noeasylink {
+    color: #1d11f6;
+    text-decoration: none;
+}
+
+.noeasylink:hover {
+    color: #white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.noeasylink,
+.noeasylink:after,
+.noeasylink:before {
+    transition: all .5s;
+}
+
+/* ---------- TEXTFORMATIERUNG ---------- */
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+.text {
+    line-height: 150%;
+}
+
+.blauertext {
+    color: #1d11f6;
+}
+
+.sitetitle {
+    font-size: 3em;
+    font-weight: 800;
+    color: #1d11f6;
+}
+
+.membersname {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+
+
+/* ---------- BILDFORMATIERUNG ---------- */
+
+
+
+img {
+    width: 20%;
+}
+
+.dominodiv {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* ---------- LAYOUT ---------- */
+
+/* INDEXSEITE */
+
+.mainindex {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.indexbild {
+    width: 75%;
+}
+
+/* MEMBERS */
+
+.member {
+    display: flex;
+    justify-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.membersphoto {
+    width: 1500px;
+}
+
+.memberdetails {
+    margin-left: -1100px;
+}
+
+
+/* BUTTON */
+
+.button {
+    background-color: #1d11f6;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 500ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #564df8;
+}
+
+.buttonlink {
+    color: white;
+    text-decoration: none;
+}
+
+/* BAND */
+
+.bandmain {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bandphoto {
+    width: 50%;
+}
+
+.bandmaintext {
+    margin-right: 5%;
+}
+
+/* INDEXSEITE */
+
+.indexbild {
+    width: 100%;
+}
+
+.indexnavbild {
+    width: 94%;
+    margin-left: 3em;
+    margin-bottom: 6px;
+    transition: 0.4s ease;
+    transform-origin: 50% 50%;
+}
+
+.indexnavbild:hover {
+    transform: scale(1.05);
+    width: 94%;
+}
+
+/* SONGS */
+
+.songstext {
+    width: 80%;
+    line-height: 150%;
+}
+
+.noeasyalbum {
+    width: 5%;
+}
+
+.audio {
+    align-items: center;
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+
+/* GALLERY */
+
+.images {
+    width: 375px;
+    padding: 20px;
+    transition: 0.7s all ease-in-out
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
+
+.gallerydiv {
+    margin-left: -30px;
+}
+
+/* ABOUT US */
+
+.disclaimer {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contactlink{
+    text-decoration: none;
+    margin-bottom: -3px;
+}
+
+.aboutusdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.webseitentext {
+    line-height: 150%;
+    margin-right: 20%;
+    margin-bottom: 70px;
+}
+
+.author {
+    width: 75%;
+    margin-top: -30px;
+}
+
+.authorsnotes {
+    font-weight: 800;
+    font-size: 2em;
+    color: #1d11f6;
+}
+
+div.card{
+    width: 18rem; !important;
+    height: 13rem; !important;
+}
+
+.authorsname {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: -5px;
+}
+
+/* JAVASCRIPT KORREKTUREN */
+
+.nounderline a:hover {
+    text-decoration: none;
+}
+
+.memberssitetitle {
+    margin-top: 3%;
+}
+
+.javascriptflexbox {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.javascript {
+    margin-bottom: 10%;
+    margin-left: -10px;
+}
+
+
+
+/* NAVIGATION JAVASCRIPT */
+
+.membersnav {
+    margin-left: 11.4%;
+    margin-top: 2.3%;
+}
+
+.navlogojs {
+    margin-top: 24%;
+}
+
+
