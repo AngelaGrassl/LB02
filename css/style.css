@@ -14,7 +14,6 @@ header {
 
 nav {
     font-family: sans-serif;
-    width: 65%;
     margin-top: 2em;
     text-align: end;
 }
@@ -42,11 +41,11 @@ nav ul li a:before {
     transition: all .5s;
 }
 nav ul li a:hover {
-    color: #1d11f6;
+    color: #00dd2c;
 }
 
 .active {
-    color: #1d11f6;
+    color: #00dd2c;
 }
 .navlogo {
     width: 200px;
@@ -76,7 +75,7 @@ footer {
 }
 
 .webseitelink:hover {
-    color: #1d11f6;
+    color: #00dd2c;
 }
 
 .webseitelink,
@@ -86,12 +85,12 @@ footer {
 }
 
 .noeasylink {
-    color: #1d11f6;
+    color: #00dd2c;
     text-decoration: none;
 }
 
 .noeasylink:hover {
-    color: #white;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
@@ -111,16 +110,18 @@ p {
 
 .text {
     line-height: 150%;
+    color: white;
+    font-family: sans-serif;
 }
 
 .blauertext {
-    color: #1d11f6;
+    color: #00dd2c;
 }
 
 .sitetitle {
     font-size: 3em;
     font-weight: 800;
-    color: #1d11f6;
+    color: #00dd2c;
 }
 
 .membersname {
@@ -154,8 +155,8 @@ img {
     margin-top: 5em;
 }
 
-.indexbild {
-    width: 75%;
+.indexbilddiv {
+    width: 638%;
 }
 
 /* MEMBERS */
@@ -175,10 +176,10 @@ img {
 }
 
 
-/* BUTTON */
+/* BUTTONS */
 
 .button {
-    background-color: #1d11f6;
+    background-color: #57b031;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -201,13 +202,15 @@ img {
 
 .button:hover,
 .button:focus {
-    background-color: #564df8;
+    background-color: #458727;
 }
 
 .buttonlink {
     color: white;
     text-decoration: none;
 }
+
+
 
 /* BAND */
 
@@ -227,12 +230,12 @@ img {
 /* INDEXSEITE */
 
 .indexbild {
-    width: 100%;
+    width: 115%;
 }
 
 .indexnavbild {
-    width: 94%;
-    margin-left: 3em;
+    width: 71%;
+    margin-left: 12em;
     margin-bottom: 6px;
     transition: 0.4s ease;
     transform-origin: 50% 50%;
@@ -240,7 +243,7 @@ img {
 
 .indexnavbild:hover {
     transform: scale(1.05);
-    width: 94%;
+    width: 73%;
 }
 
 /* SONGS */
@@ -258,6 +261,10 @@ img {
     align-items: center;
     margin-top: 2.5%;
     margin-left: 5%;
+}
+
+.tracklist {
+    width: 90%;
 }
 
 /* GALLERY */
@@ -307,7 +314,7 @@ img {
 .authorsnotes {
     font-weight: 800;
     font-size: 2em;
-    color: #1d11f6;
+    color: #00dd2c;
 }
 
 div.card{
@@ -321,37 +328,148 @@ div.card{
     margin-bottom: -5px;
 }
 
-/* JAVASCRIPT KORREKTUREN */
 
-.nounderline a:hover {
-    text-decoration: none;
+/* ABOUT US */
+
+input {
+    background-color: lightgrey;
 }
 
-.memberssitetitle {
-    margin-top: 3%;
-}
-
-.javascriptflexbox {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.javascript {
-    margin-bottom: 10%;
-    margin-left: -10px;
+textarea {
+    background-color: lightgrey;
 }
 
 
 
-/* NAVIGATION JAVASCRIPT */
 
-.membersnav {
-    margin-left: 11.4%;
-    margin-top: 2.3%;
+
+
+/* CSS CLIENT VALIDATION */
+
+
+
+:root {
+    --success-color: #57b031;
+    --error-color: #d34501;
 }
 
-.navlogojs {
-    margin-top: 24%;
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
 }
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    line-height: 150%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input {
+    border-color: var(--success-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);
+}
+
+.form-control small {
+    color: var(--error-color);
+    position: absolute;
+    /* bottom: 0;*/
+    left: 0;
+    visibility: hidden;
+    font-size: .75rem;
+}
+
+.form-control.error small {
+    visibility: visible;
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #d34501;
+}
+
+.disp {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #d34501;
+}
+
+.disp2 {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #d34501;
+}
+
+.disp3 {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #d34501;
+}
+
+.disp02 {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #00dd2c;
+}
+
+.disp22 {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #00dd2c;
+}
+
+.disp32 {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+    color: #00dd2c;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: #57b031;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 50px;
+    width: 30%;
+}
+
+
+.form button:hover,
+.form button:focus {
+    background-color: #458727;
+}
+
+
+
 
 

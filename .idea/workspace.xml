@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d39b056-832a-4c47-bacf-123f4fcca64b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newsletter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/straykids_website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/band.html" beforeDir="false" afterPath="$PROJECT_DIR$/band.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/about_us.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/about_us.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/band.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/band.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/band.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/chan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/chan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/changbin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/changbin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/felix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/felix.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/gallery.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/gallery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/han.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/han.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/hyunjin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/hyunjin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/in.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/indexbild.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/leeknow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/leeknow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/members.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/members.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/seungmin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/seungmin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhalte/songs.png" beforeDir="false" afterPath="$PROJECT_DIR$/inhalte/songs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/songs.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23PjZAHNFwFtCeEYF59aHBF9XPH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\03_Schule\14_Interaktive_Webseite_mit_Formular_erstellen\projekt\korrekturen_webseite\straykids_website_oddinary" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d39b056-832a-4c47-bacf-123f4fcca64b" name="Default Changelist" comment="" />
+      <created>1641642668728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641642668728</updated>
+      <workItem from="1641642669836" duration="1530000" />
+      <workItem from="1641834772836" duration="296000" />
+      <workItem from="1641837604061" duration="1654000" />
+      <workItem from="1641894128561" duration="159000" />
+      <workItem from="1641894797343" duration="3185000" />
+      <workItem from="1641916955476" duration="387000" />
+      <workItem from="1641917644352" duration="531000" />
+      <workItem from="1641918285878" duration="3660000" />
+      <workItem from="1642015106044" duration="385000" />
+      <workItem from="1642015641294" duration="1285000" />
+      <workItem from="1651665865410" duration="4539000" />
+      <workItem from="1651776682752" duration="1382000" />
+      <workItem from="1652174205722" duration="3948000" />
+      <workItem from="1652776534306" duration="6585000" />
+      <workItem from="1652974138969" duration="1287000" />
+      <workItem from="1652975483625" duration="161000" />
+      <workItem from="1653241718165" duration="254000" />
+      <workItem from="1653242277202" duration="4947000" />
+      <workItem from="1653383796644" duration="1270000" />
+      <workItem from="1653555212880" duration="3612000" />
+      <workItem from="1653569142274" duration="14000" />
+      <workItem from="1653569164083" duration="1109000" />
+      <workItem from="1653647339783" duration="55000" />
+      <workItem from="1653979671884" duration="474000" />
+      <workItem from="1654357779786" duration="42000" />
+      <workItem from="1654358153782" duration="172000" />
+      <workItem from="1654361473142" duration="1431000" />
+      <workItem from="1654591397156" duration="2401000" />
+      <workItem from="1654593862252" duration="330000" />
+      <workItem from="1654594248489" duration="257000" />
+      <workItem from="1655132149845" duration="326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

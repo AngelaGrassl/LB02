@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="inhalte/favicon.png">
+    <title>StrayKids - Angela Grassl & Anna Maio LB02</title>
+</head>
+<body id="bodyindex">
+<header>
+    <a href="index.html"><img class="navlogo" src="inhalte/logo.png" alt="StrayKids Logo"></a>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html" class="navbar-text">Home</a></li>
+            <li><a href="band.html" class="navbar-text">Band</a></li>
+            <li><a href="members.html" class="navbar-text">Members</a></li>
+            <li><a href="songs.html" class="navbar-text">Songs</a></li>
+            <li><a href="gallery.html" class="navbar-text activenav">Gallery</a></li>
+            <li><a class="active" href="newsletter.html" class="navbar-text" class="navbar-text">Newsletter</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+<main>
+    <div>
+        <p class="sitetitle">NEWSLETTER</p>
+    </div>
+     <div class="webseitentext">
+        <p class="disclaimer">
+            <br>
+            Subscribe to our Newsletter to get updates to what Stray Kids is up to!
+        </p>
+     </div>
+    <form id="form" class="form">
+        <div class="form-control">
+            <label for="firstname">Firstname</label>
+            <input type="text" id="firstname" placeholder="Enter firstname" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="familyname">Familyname</label>
+            <input type="text" id="familyname" placeholder="Enter familyname" />
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email" />
+            <small>Error message</small>
+        </div>
+
+        <div>
+            <br>
+            <p>I want an update on the following members:</p>
+            <p>
+                <input type="checkbox" name="member" id="bangchan" value="bangchan">
+                <label for="bangchan">Bang Chan</label><br>
+                <input type="checkbox" name="member" id="leeknow" value="leeknow">
+                <label for="leeknow">Lee Know</label><br>
+                <input type="checkbox" name="member" id="changbin" value="changbin">
+                <label for="changbin">Changbin</label><br>
+                <input type="checkbox" name="member" id="hyunjin" value="hyunjin">
+                <label for="hyunjin">Hyunjin</label><br>
+                <input type="checkbox" name="member" id="han" value="han">
+                <label for="han">Han</label><br>
+                <input type="checkbox" name="member" id="felix" value="felix">
+                <label for="felix">Felix</label><br>
+                <input type="checkbox" name="member" id="seungmin" value="seungmin">
+                <label for="seungmin">Seungmin</label><br>
+                <input type="checkbox" name="member" id="jeongin" value="jeongin">
+                <label for="jeongin">I.N</label><br>
+            </p>
+        </div>
+        <div id="disp"></div>
+        <div id="disp02"></div>
+
+        <div class="form-control">
+            <br>
+            <label for="updates" class="text">I would like to receive the newsletter...<br><br></label>
+            <select name="updates" id="updates">
+                <option value="none" selected disabled hidden>Select an option</option>
+                <option value="daily" id="daily" >daily</option>
+                <option value="weekly" id="weekly" >weekly </option>
+                <option value="monthly" id="monthly" >monthly</option>
+            </select>
+        </div>
+        <div id="disp2"></div>
+        <div id="disp22"></div>
+
+        <div class="form-control text">
+            <br>
+            <label type="radio">I agree to receive the latest updates per mail.</label>
+        </div>
+        <p>
+            <input type="radio" name="agree" id="yes" value="yes"> Yes
+            <input type="radio" name="agree" id="no" value="no"> No
+        </p>
+        <div id="disp3"></div>
+        <div id="disp32"></div>
+
+        <button type="submit" onclick="display()">Submit</button>
+    </form>
+</main>
+    <footer>
+        <p>
+            Visit <a class="webseitelink" target="_blank" href="https://straykids.jype.com/">StrayKids Official Website</a>
+        </p>
+        <p class="copyright">
+            Copyright © Angela Grassl & Anna Maio
+        </p>
+    </footer>
+</body>
+<script src="script/validate-inputs.js"></script>
+</html>
+
